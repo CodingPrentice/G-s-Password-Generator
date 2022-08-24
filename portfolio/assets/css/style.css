@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    color: rgb(248, 237, 237);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 50px;
+  
+}
+head {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(17, 129, 43);
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+}
+ 
+
+header {
+    background: rgb(6, 118, 140);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.toplogo h1{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 0;
+}
+  ul{
+    justify-content: space-around;
+    background: black;
+    padding: 20px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    border: none;
+    border-radius: 100px;
+}
+
+ ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+nav ul li:hover{
+    color: whitesmoke;
+    background: rgb(6, 118, 140);
+    border-radius: 12px;
+}
+nav ul li a{
+    color:  rgb(248, 249, 250);
+    text-decoration: initial;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+  
+
+
+body {
+    background: rgb(21, 22, 22);
+    margin: 0;
+    padding: 0;
+    text-decoration-color: black;
+    width: auto;
+}
+
+.about-content {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.about-content h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    color: rgb(200, 135, 135);
+    padding: 20px;
+}
+
+
+
+.about-content p {
+    flex: none;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin: 5px;
+    padding: 50px 50px 50px 50px;
+}
+.hc {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(200, 135, 135);
+    margin-bottom: 0;
+}
+
+.hc:hover {
+    color: rgb(6, 118, 140);
+}
+
+
+.home-content p {
+    font-size: 25px;
+    font-weight: 300;
+    color: whitesmoke;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+.home-content h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(200, 135, 135);
+    margin-bottom: 0;
+}
+.ac {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(200, 135, 135);
+    margin-bottom: 0;
+}
+
+.ac:hover {
+    color: rgb(6, 118, 140);
+}
+
+.about-con img  {
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;
+    border-style: solid;
+    border-width: 10px; 
+    border-color: rgb(6, 118, 140);
+    margin: 50px;
+}
+
+.portfolio-content img {
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(6, 118, 140);
+    margin: 50px;
+   
+}
+
+.portfolio-content p {
+    font-size: 25px;
+    font-weight: 300;
+    color: whitesmoke;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+
+}
+.portfolio-content h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(200, 135, 135);
+    margin-bottom: 0;
+    padding: 50px;
+}
+
+.pg {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(254, 241, 7);
+    margin-bottom: 0;
+}
+
+.pg:hover {
+    color: rgb(6, 118, 140);
+}
+
+.rg {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(254, 241, 7);
+    margin-bottom: 0;
+}
+
+.rg:hover {
+    color: rgb(6, 118, 140);
+}
+
+.gr {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(254, 241, 7);
+    margin-bottom: 0;
+}
+
+.gr:hover {
+    color: rgb(6, 118, 140);
+}
+
+.contact-content {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.contact-content h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    color: rgb(200, 135, 135);
+    padding: 50px;
+}
+.contact-content p {
+    font-size: 25px;
+    font-weight: 300;
+    color: whitesmoke;
+    margin-bottom: 0;
+    justify-content: center;
+   
+}
+
+.cc {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(200, 135, 135);
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: baseline;
+    display: flex;
+
+}
+
+.cc:hover {
+    color: rgb(6, 118, 140);
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: rgb(200, 135, 135);
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.footer:hover {
+    color: rgb(6, 118, 140);
+}
