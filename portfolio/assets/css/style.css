@@ -161,6 +161,7 @@ body {
     font-weight: 300;
     color: rgb(200, 135, 135);
     margin-bottom: 0;
+  
 }
 
 .ac:hover {
@@ -205,6 +206,15 @@ body {
     margin-bottom: 0;
     padding: 50px;
 }
+#portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .pg {
     font-size: 16px;
@@ -238,6 +248,19 @@ body {
 .gr:hover {
     color: rgb(6, 118, 140);
 }
+
+.rd {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(254, 241, 7);
+    margin-bottom: 0;
+    flex: flex-wrap;
+}
+
+.rd:hover {
+    color: rgb(6, 118, 140);
+}
+
 
 .contact-content {
     justify-content: flex-start;
